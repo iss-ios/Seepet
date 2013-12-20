@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'Seepet' target in the 'Seepet' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "BTEConstant.h"
+    #import "BTEAbstractEngineAcitivity.h"
+    #import "AppDelegate.h"
+    #import "Toast+UIView.h"
+    #import "CustomTitleView.h"
+    #import "Common.h"
+    #import "Constant.h"
+    #import "CustomAlertView.h"
+    #import "CustomListAlertView.h"
+    #import "UIImageView+WebCache.h"
+    #import "EGORefreshTableHeaderView.h"
+    #import "EGORefreshTableFooterView.h"
+    #import "LoginViewController.h"
+    #import "RegisterViewController.h"
+    #import "ForgotPassWordViewController.h"
+    #import "UIButton+WebCache.h"
+    #import "UIImageView+WebCache.h"
+    #import "PostInfo.h"
+    #import "CustomInfoViewController.h"
+    #import "PostDetailViewController.h"
+    #import "ShareViewController.h"
+    #import "ImageViewController.h"
+    #import "UITap.h"
+#endif
